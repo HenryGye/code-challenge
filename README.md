@@ -20,6 +20,9 @@ Inside of the app folder we find
 # Notes
 The project is not using routing
 
+# Installation
+run 'npm install' and then run 'ng serve'
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
