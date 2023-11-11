@@ -1,0 +1,17 @@
+<ng-container *ngIf="options">
+  <div class="absolute z-[50] top-0 left-0 w-full h-full">
+    <div class="w-full h-full flex justify-center items-center">
+      <div class="w-[90%] md:w-[45%] h-auto shadow-2xl bg-white flex flex-col text-center gap-[1rem] py-4 px-6">
+        <div class="text-end">
+          <button class="w-auto font-bold text-[25px]" (click)="closeModal()">X</button>
+        </div>
+        <span class="font-bold text-[25px] my-4">{{ options.title }}</span>
+        <span class="font-bold text-[18px]">{{ options.subtitle }}</span>
+        <span class="font-medium text-[18px]" [innerHTML]="options.text"></span>
+        <div class="mt-32">
+          <button class="w-[60%] p-4 bg-[#f79fcc] rounded-[2rem] font-semibold text-[14px] text-white" (click)="closeModal()">{{ options.textButton }}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

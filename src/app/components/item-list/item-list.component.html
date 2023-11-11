@@ -1,0 +1,11 @@
+<ul class="w-full">
+  <li class="flex items-center gap-[1rem] p-4 border-b border-solid border-gray-200 hover:cursor-pointer hover:bg-gray-100" 
+    *ngFor="let item of placesList" 
+    (click)="searchZipCode(item)">
+    <img src="{{ srcImg }}" class="w-[18px] h-[20px]">
+    <div class="flex flex-col">
+      <span class="font-[600]">{{ item.structured_formatting.main_text }}</span>
+      <span class="font-[600] text-[12px] text-[#929aa6]">{{ item.structured_formatting.secondary_text }}</span>
+    </div>
+  </li>
+</ul>

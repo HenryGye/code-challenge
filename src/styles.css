@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Instrument Sans', sans-serif;
+  background: #f1f2f4;
+}
