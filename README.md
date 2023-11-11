@@ -21,7 +21,7 @@ Inside of the app folder we find
 The project is not using routing
 
 # Installation
-run 'npm install' and then run 'ng serve'
+run 'npm install --force' and then run 'ng serve'
 
 ## Development server
 
